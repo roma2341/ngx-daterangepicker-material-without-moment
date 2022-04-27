@@ -23,7 +23,7 @@
   ],
   "homepage": "https://github.com/fetrarij/ngx-daterangepicker-material",
   "license": "MIT",
-  "main": "dist/index.js",
+  "main": "dist/esm2015/index.js",
   "typings": "dist/index.d.ts",
   "scripts": {
     "ng": "ng",
@@ -34,10 +34,7 @@
     "e2e": "ng e2e",
     "ngc": "./node_modules/.bin/ngc -p tsconfig.json",
     "gh-pages": "ng build --prod --base-href=\"/ngx-daterangepicker-material/\" && ngh --dir demo/dist",
-    "build": "ng-packagr -p package.json",
-    "build:schematics": "tsc -p ./tsconfig.schematics.json",
-    "copy:schematics": "cpr schematics/dist dist/schematics && cp ./schematics/collection.json ./dist/schematics && cp ./schematics/ng-add/schema.json ./dist/schematics/ng-add",
-    "postbuild": "npm run build:schematics && npm run copy:schematics"
+    "build": "ng build"
   },
   "author": "Fetrarijaona R.",
   "repository": {
@@ -86,10 +83,8 @@
     "typescript": "~4.6.3",
     "zone.js": "~0.11.5"
   },
-  "$schema": "./node_modules/ng-packagr/package.schema.json",
   "dependencies": {
     "dayjs": "^1.11.1",
     "tslib": "^2.4.0"
-  },
-  "schematics": "./schematics/collection.json"
+  }
 }

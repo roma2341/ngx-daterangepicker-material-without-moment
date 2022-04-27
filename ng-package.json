@@ -1,12 +1,10 @@
 {
+  "$schema": "node_modules/ng-packagr/ng-package.schema.json",
+  "dest": "dist/ngx-daterangepicker-material-daysjs",
   "lib": {
-    "entryFile": "src/daterangepicker/index.ts",
-    "umdModuleIds": {
-      "dayjs": "dayjs"
-    }
+    "entryFile": "src/daterangepicker/index.ts"
   },
   "allowedNonPeerDependencies": [
     "dayjs"
-  ],
-  "dest": "dist"
+  ]
 }
