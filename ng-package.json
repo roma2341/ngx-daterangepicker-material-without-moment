@@ -1,0 +1,12 @@
+{
+  "lib": {
+    "entryFile": "src/daterangepicker/index.ts",
+    "umdModuleIds": {
+      "dayjs": "dayjs"
+    }
+  },
+  "allowedNonPeerDependencies": [
+    "dayjs"
+  ],
+  "dest": "dist"
+}
