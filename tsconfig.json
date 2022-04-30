@@ -12,7 +12,7 @@
     "sourceMap": true,
     "paths": {
       "ngx-daterangepicker-material-daysjs": [
-        "dist/ngx-daterangepicker-material-daysjs"
+        "dist"
       ]
     },
     "declaration": false,
