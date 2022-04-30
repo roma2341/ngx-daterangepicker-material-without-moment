@@ -1,7 +1,7 @@
 {
   "name": "ngx-daterangepicker-material-daysjs",
   "version": "5.0.1",
-  "description": "Angular 9 and 10 date range picker (with material design theme) using daysjs instead momentjs. Fork of ngx-daterangepicker-material (daysjs version) with updated dependencies",
+  "description": "Angular 13 date range picker (with material design theme) using daysjs instead momentjs. Fork of ngx-daterangepicker-material (daysjs version) with updated dependencies",
   "keywords": [
     "angular2",
     "angular4",
