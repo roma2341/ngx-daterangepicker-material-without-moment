@@ -1,9 +1,9 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { FormsModule } from '@angular/forms';
 import { MatToolbarModule } from '@angular/material/toolbar';
-import { NgxDaterangepickerMd } from '../../../../src/daterangepicker';
 
 import { CustomRangesComponent } from './custom-ranges.component';
+import {NgxDaterangepickerMd} from '../../../../src/public-api';
 
 describe('CustomRangesComponent', () => {
   let component: CustomRangesComponent;

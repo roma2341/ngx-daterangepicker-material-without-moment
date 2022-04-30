@@ -37,8 +37,7 @@
     "build": "ng build",
     "build-p": "ng build --configuration production",
     "build:schematics": "tsc -p ./tsconfig.schematics.json",
-    "copy:schematics": "cp -r schematics/dist dist/schematics && cp -r schematics/collection.json dist/schematics && cp -r schematics/ng-add/schema.json dist/schematics/ng-add",
-    "postbuild": "npm run build:schematics && npm run copy:schematics"
+    "copy:schematics": "cp -r schematics/dist dist/schematics && cp -r schematics/collection.json dist/schematics && cp -r schematics/ng-add/schema.json dist/schematics/ng-add"
   },
   "author": "Fetrarijaona R.",
   "repository": {
@@ -49,7 +48,7 @@
     "dayjs": "^1.10.4"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "13.3.3",
+    "@angular-devkit/build-angular": "13.3.4",
     "@angular/animations": "^13.3.5",
     "@angular/cdk": "^13.3.4",
     "@angular/cli": "~13.3.3",

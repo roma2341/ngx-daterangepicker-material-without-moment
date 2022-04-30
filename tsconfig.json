@@ -12,12 +12,13 @@
     "sourceMap": true,
     "paths": {
       "ngx-daterangepicker-material-daysjs": [
-        "dist"
+        "dist/ngx-daterangepicker-material-daysjs"
       ]
     },
     "declaration": false,
     "downlevelIteration": true,
     "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
     "moduleResolution": "node",
     "importHelpers": true,
     "target": "es2017",
@@ -36,6 +37,7 @@
     "enableI18nLegacyMessageIdFormat": false,
     "strictInjectionParameters": true,
     "strictInputAccessModifiers": true,
-    "strictTemplates": true
+    "strictTemplates": true,
+    "allowSyntheticDefaultImports": true
   }
 }

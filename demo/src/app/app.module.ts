@@ -12,7 +12,7 @@ import { MatInputModule } from '@angular/material/input';
 import { MatSelectModule } from '@angular/material/select';
 import { MatToolbarModule } from '@angular/material/toolbar';
 
-import { NgxDaterangepickerMd } from './../../../src/daterangepicker';
+import { NgxDaterangepickerMd } from '../../../src';
 import { AppComponent } from './app.component';
 import { SimpleComponent } from './simple/simple.component';
 import { FullComponent } from './full/full.component';

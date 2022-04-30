@@ -1,6 +1,6 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import * as dayjs from 'dayjs';
-import { DaterangepickerDirective } from '../../../../src/daterangepicker/daterangepicker.directive';
+import { DaterangepickerDirective } from '../../../../src/lib/daterangepicker.directive';
 
 @Component({
   selector: 'full',

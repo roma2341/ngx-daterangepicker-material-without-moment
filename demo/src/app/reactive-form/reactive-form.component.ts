@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import * as dayjs from 'dayjs';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
-import { LocaleConfig } from '../../../../src/daterangepicker';
+import { LocaleConfig } from '../../../../src';
 
 @Component({
   selector: 'reactive-form',
