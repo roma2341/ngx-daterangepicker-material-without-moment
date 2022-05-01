@@ -21,7 +21,7 @@
     "dayjs",
     "picker"
   ],
-  "homepage": "https://github.com/fetrarij/ngx-daterangepicker-material",
+  "homepage": "https://github.com/roma2341/ngx-daterangepicker-material-without-moment",
   "license": "MIT",
   "main": "dist/esm2015/index.js",
   "typings": "dist/index.d.ts",
@@ -42,7 +42,7 @@
   "author": "Roman Zinchuk, Fetrarijaona R.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/fetrarij/ngx-daterangepicker-material.git"
+    "url": "https://github.com/roma2341/ngx-daterangepicker-material-without-moment"
   },
   "peerDependencies": {
     "dayjs": "^1.10.4"
